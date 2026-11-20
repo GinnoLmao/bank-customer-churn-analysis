@@ -1,0 +1,19 @@
+model,parameters,mean_cv_average_precision,std_cv_average_precision
+Logistic regression,"{""model__C"": 0.01, ""model__class_weight"": null}",0.4032262827881234,0.022201490661714764
+Logistic regression,"{""model__C"": 0.01, ""model__class_weight"": ""balanced""}",0.42470531595583283,0.020984577811288693
+Logistic regression,"{""model__C"": 0.1, ""model__class_weight"": null}",0.4680191823223622,0.01827313481320177
+Logistic regression,"{""model__C"": 0.1, ""model__class_weight"": ""balanced""}",0.46509793982946696,0.016954396559316392
+Logistic regression,"{""model__C"": 1.0, ""model__class_weight"": null}",0.4675839132455679,0.015623136361313423
+Logistic regression,"{""model__C"": 1.0, ""model__class_weight"": ""balanced""}",0.45658202928483976,0.013842699993187315
+Decision tree,"{""model__class_weight"": null, ""model__max_depth"": 3, ""model__min_samples_leaf"": 10}",0.5374774460337094,0.018260992610471104
+Decision tree,"{""model__class_weight"": null, ""model__max_depth"": 3, ""model__min_samples_leaf"": 30}",0.5374774460337094,0.018260992610471104
+Decision tree,"{""model__class_weight"": null, ""model__max_depth"": 5, ""model__min_samples_leaf"": 10}",0.6413845503300605,0.012100418377184988
+Decision tree,"{""model__class_weight"": null, ""model__max_depth"": 5, ""model__min_samples_leaf"": 30}",0.629796159029737,0.017097541189137394
+Decision tree,"{""model__class_weight"": null, ""model__max_depth"": 8, ""model__min_samples_leaf"": 10}",0.6385230078082675,0.024922301809384727
+Decision tree,"{""model__class_weight"": null, ""model__max_depth"": 8, ""model__min_samples_leaf"": 30}",0.6441582675532991,0.024015368521936302
+Decision tree,"{""model__class_weight"": ""balanced"", ""model__max_depth"": 3, ""model__min_samples_leaf"": 10}",0.525719059764248,0.01926541180452665
+Decision tree,"{""model__class_weight"": ""balanced"", ""model__max_depth"": 3, ""model__min_samples_leaf"": 30}",0.525719059764248,0.01926541180452665
+Decision tree,"{""model__class_weight"": ""balanced"", ""model__max_depth"": 5, ""model__min_samples_leaf"": 10}",0.6309535829740409,0.01620986031484431
+Decision tree,"{""model__class_weight"": ""balanced"", ""model__max_depth"": 5, ""model__min_samples_leaf"": 30}",0.6109012744609709,0.015339581332435072
+Decision tree,"{""model__class_weight"": ""balanced"", ""model__max_depth"": 8, ""model__min_samples_leaf"": 10}",0.6399844718825041,0.022019621779978637
+Decision tree,"{""model__class_weight"": ""balanced"", ""model__max_depth"": 8, ""model__min_samples_leaf"": 30}",0.6301237223366386,0.027501968235593244
